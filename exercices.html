@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Exercices - maths</title>
+    <style>
+        header {
+          height: 450px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        #quiz {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+          }
+          .question {
+            margin-bottom: 20px;
+          }
+        /* Style pour bouton sous le titre */
+        .btn-below-title {
+          margin-top: 10px;
+        }
+        .img-header {
+            max-height: 250px;
+            width: auto;
+          }
+    </style>
+</head>
+<body>
+    <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">CIS - LZO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#">Exercice maths</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <body>
+      <div class="container center mt-5">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h3 class="text-center">Exercices de maths</h3>
+            <div id="questions"></div>
+            <button type="button" class="btn btn-primary" id="valider">Valider</button>
+          </div>
+        </div>
+      </div>
+      <script>
+
+  var currentDate = new Date();
+  var formattedDate = currentDate.getFullYear() + "" + (currentDate.getMonth() + 1) + "" + currentDate.getDate();
+  var fileName = "questions-" + formattedDate + ".json";
+  fetch('https://cis-lzo.cyril-tavian.fr/exercices/' + fileName)
+	.then(response => response.json())
+	.then(data => {
+		let html = '';
+		data.forEach(question => {
+			html += `
+				<div class="card my-3">
+					<div class="card-body">
+						<h5 class="card-title">${question.text}</h5>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question-${question.id}" id="question-${question.id}-0" value="${question.answers[0].text}">
+							<label class="form-check-label" for="question-${question.id}-0">
+								${question.answers[0].text}
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question-${question.id}" id="question-${question.id}-1" value="${question.answers[1].text}">
+							<label class="form-check-label" for="question-${question.id}-1">
+								${question.answers[1].text}
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question-${question.id}" id="question-${question.id}-2" value="${question.answers[2].text}">
+							<label class="form-check-label" for="question-${question.id}-2">
+								${question.answers[2].text}
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="question-${question.id}" id="question-${question.id}-3" value="${question.answers[3].text}">
+							<label class="form-check-label" for="question-${question.id}-3">
+								${question.answers[3].text}
+							</label>
+						</div>
+						<div class="invalid-feedback"></div>
+					</div>
+				</div>
+			`;
+		});
+		document.getElementById("questions").innerHTML = html;
+	});
+
+  document.getElementById("valider").addEventListener("click", () => {
+    var currentDate = new Date();
+    var formattedDate = currentDate.getFullYear() + "" + (currentDate.getMonth() + 1) + "" + currentDate.getDate();
+    var fileName = "questions-" + formattedDate + ".json";
+    fetch('https://cis-lzo.cyril-tavian.fr/exercices/' + fileName)
+        .then(response => response.json())
+        .then(data => {
+            let incorrect = [];
+            data.forEach(question => {
+                let reponse = document.querySelector(`input[name=question-${question.id}]:checked`);
+                if (!reponse || reponse.value !== question.correctAnswer) {
+                    incorrect.push(question.id);
+                    let invalidFeedback = document.querySelector(`#question-${question.id} .invalid-feedback`);
+                    if (invalidFeedback) {
+                        invalidFeedback.innerHTML = "Mauvaise réponse. Veuillez réessayer.";
+                        invalidFeedback.style.display = "block";
+                    }
+                } else {
+                    let invalidFeedback = document.querySelector(`#question-${question.id} .invalid-feedback`);
+                    if (invalidFeedback) {
+                        invalidFeedback.innerHTML = "";
+                        invalidFeedback.style.display = "none";
+                    }
+                }
+            });
+            if (incorrect.length > 0) {
+                alert(`Les questions suivantes sont incorrectes : ${incorrect.join(", ")}`);
+            } else {
+                alert("Toutes les questions sont correctes !");
+            }
+        });
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
