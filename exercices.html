@@ -67,10 +67,8 @@
       </div>
       <script>
 
-  var currentDate = new Date();
-  var formattedDate = currentDate.getFullYear() + "" + (currentDate.getMonth() + 1) + "" + currentDate.getDate();
-  var fileName = "questions-" + formattedDate + ".json";
-  fetch('https://cis-lzo.cyril-tavian.fr/exercices/' + fileName)
+
+  fetch('https://cis-lzo.cyril-tavian.fr/exercices/questions.json')
 	.then(response => response.json())
 	.then(data => {
 		let html = '';
@@ -111,11 +109,9 @@
 		document.getElementById("questions").innerHTML = html;
 	});
 
+
   document.getElementById("valider").addEventListener("click", () => {
-    var currentDate = new Date();
-    var formattedDate = currentDate.getFullYear() + "" + (currentDate.getMonth() + 1) + "" + currentDate.getDate();
-    var fileName = "questions-" + formattedDate + ".json";
-    fetch('https://cis-lzo.cyril-tavian.fr/exercices/' + fileName)
+    fetch('https://cis-lzo.cyril-tavian.fr/exercices/questions.json')
         .then(response => response.json())
         .then(data => {
             let incorrect = [];

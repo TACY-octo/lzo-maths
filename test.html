@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz à choix multiples</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz à choix multiples</h1>
+      <hr>
+      <div id="quiz"></div>
+      <br>
+      <button id="submit" class="btn btn-primary">Valider</button>
+      <br><br>
+      <div id="result"></div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $.getJSON('https://cis-lzo.cyril-tavian.fr/exercices/questions.json', function(data) {
+            var questions = data;
+            var output = '';
+            var score = 0;
+            var correctAnswers = [];
+
+            // pour chaque question, crée un formulaire avec les réponses possibles
+            $.each(questions, function(i, question) {
+              output += '<h4>Question ' + (i+1) + ': ' + question.text + '</h4>';
+              output += '<div class="form-check">';
+              $.each(question.answers, function(j, answer) {
+                output += '<input class="form-check-input" type="radio" name="question'+i+'" id="q'+i+'a'+j+'" value="'+answer.text+'">';
+                output += '<label class="form-check-label" for="q'+i+'a'+j+'">'+answer.text+'</label><br>';
+                if (answer.text === question.correctAnswer) {
+                  correctAnswers[i] = j;
+                }
+              });
+              output += '</div>';
+              output += '<br>';
+            });
+
+            // affiche le formulaire sur la page
+            $('#quiz').html(output);
+
+            // vérifie les réponses lorsque le bouton de soumission est cliqué
+            $('#submit').on('click', function() {
+              var incorrect = false;
+              score = 0;
+              $('#result').html(''); // remplace le contenu par une chaîne de caractères vide
+              $.each(questions, function(i, question) {
+                var selected = $('input[name=question'+i+']:checked').val();
+                if (!selected) {
+                  incorrect = true;
+                  $('<div class="alert alert-danger" role="alert">Veuillez sélectionner une réponse.</div>').insertBefore('#q'+i+'a0');
+                } else if (selected === question.answers[correctAnswers[i]].text) {
+                  score++;
+                  $('<div class="alert alert-success" role="alert">Bonne réponse!</div>').insertBefore('#q'+i+'a0');
+                } else {
+                  incorrect = true;
+                  $('<div class="alert alert-danger" role="alert">Mauvaise réponse.</div>').insertBefore('#q'+i+'a0');
+                }
+
+              });
+
+              $('<div class="alert alert-primary" role="alert">Votre score est de ' + score + '/' + questions.length + '</div>').appendTo('#result');
+
+            });
+          });
+        });
+      </script>
+</body>
+</html>
