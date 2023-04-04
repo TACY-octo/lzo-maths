@@ -248,7 +248,7 @@
   },
   {
       "id": 14,
-      "text": "Un CCR utilise 7,5 % de la citerne d'eau pour remplir sa cuve. Combien de litres a-t-il utilisé ?",
+      "text": "Un CCR utilise 7,5 % de la citerne d'eau de la question précédente pour remplir sa cuve. Combien de litres a-t-il utilisé ?",
       "answers": [
           {
               "text": "765,225 litres"
