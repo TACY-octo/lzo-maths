@@ -1,0 +1,165 @@
+[
+    {
+      "id": 1,
+      "text": "Un camion de pompiers a parcouru 150 km en 2 heures. Quelle est sa vitesse moyenne en km/h ?",
+      "answers": [
+        {"text": "75"},
+        {"text": "100"},
+        {"text": "125"},
+        {"text": "150"}
+      ],
+      "correctAnswer": "75"
+    },
+    {
+      "id": 2,
+      "text": "Le réservoir d'eau d'un camion de pompiers contient 2000 L d'eau. Si le camion utilise 500 L d'eau pour éteindre un feu, quelle fraction de son réservoir d'eau a-t-il utilisé ?",
+      "answers": [
+        {"text": "1/4"},
+        {"text": "1/3"},
+        {"text": "1/2"},
+        {"text": "2/3"}
+      ],
+      "correctAnswer": "1/4"
+    },
+    {
+      "id": 3,
+      "text": "Si un tuyau de pompiers mesure 25 mètres de long et qu'il faut en utiliser 4 pour atteindre un feu, quelle est la longueur totale de tuyau nécessaire en mètres ?",
+      "answers": [
+        {"text": "75"},
+        {"text": "80"},
+        {"text": "90"},
+        {"text": "100"}
+      ],
+      "correctAnswer": "100"
+    },
+    {
+      "id": 4,
+      "text": "Un pompier utilise une échelle pour atteindre un balcon situé à 6 mètres de hauteur. Si l'angle formé entre l'échelle et le sol est de 60 degrés, quelle est la longueur de l'échelle en mètres ? (arrondir au centième)",
+      "answers": [
+        {"text": "10.39"},
+        {"text": "12.00"},
+        {"text": "13.14"},
+        {"text": "14.12"}
+      ],
+      "correctAnswer": "12.00"
+    },
+    {
+      "id": 5,
+      "text": "Un pompier doit remplir un réservoir d'eau qui contient 2000 L. Si le débit de l'eau du robinet est de 25 L/min, combien de temps prendra-t-il pour remplir entièrement le réservoir ?",
+      "answers": [
+        {"text": "1h 15min"},
+        {"text": "1h 20min"},
+        {"text": "1h 25min"},
+        {"text": "1h 30min"}
+      ],
+      "correctAnswer": "1h 20min"
+    },
+    {
+      "id": 6,
+      "text": "Un camion de pompiers transporte 2000 L d'eau. Si une caserne de pompiers a besoin de remplir son réservoir de 6000 L d'eau, combien de camions de pompiers seront nécessaires ?",
+      "answers": [
+        {"text": "2"},
+        {"text": "3"},
+        {"text": "4"},
+        {"text": "5"}
+      ],
+      "correctAnswer": "3"
+    },
+    {
+      "id": 7,    "text": "Un camion de pompiers doit parcourir une distance de 10 km en 20 minutes. Quelle est sa vitesse moyenne en km/h ?",
+       "answers": [
+          {"text": "30 km/h"},
+          {"text": "40 km/h"},
+          {"text": "50 km/h"},{"text": "60 km/h"}
+        ],
+        "correctAnswer": "30 km/h"
+    },
+    {
+      "id": 8,
+      "text": "Un réservoir contient 5000 litres d'eau. Si une lance à incendie peut projeter 50 litres d'eau par minute, combien de temps faudra-t-il pour vider entièrement le réservoir ?",
+      "answers": [
+        {"text": "50 minutes"},
+        {"text": "100 minutes"},
+        {"text": "150 minutes"},
+        {"text": "200 minutes"}
+      ],
+      "correctAnswer": "100 minutes"
+    },
+    {
+      "id": 9,
+      "text": "Si un pompier met 3 minutes pour monter un escalier de 10 étages, combien de temps mettra-t-il pour monter un escalier de 15 étages ?",
+      "answers": [
+        {"text": "4,5 minutes"},
+        {"text": "6 minutes"},
+        {"text": "7,5 minutes"},
+        {"text": "9 minutes"}
+      ],
+      "correctAnswer": "6 minutes"
+    },
+    {
+      "id": 10,
+      "text": "Un tuyau d'incendie mesure 30 mètres de long. Si le pompier veut utiliser 3/4 du tuyau, combien de mètres de tuyau utilisera-t-il ?",
+      "answers": [
+        {"text": "15 mètres"},
+        {"text": "20 mètres"},
+        {"text": "22,5 mètres"},
+        {"text": "25 mètres"}
+      ],
+      "correctAnswer": "22,5 mètres"
+    },
+    {
+      "id": 11,
+      "text": "Un camion de pompiers transporte 4000 litres d'eau. Si une lance à incendie utilise 100 litres d'eau par minute, combien de temps pourra-t-elle fonctionner avec l'eau du camion ?",
+      "answers": [
+        {"text": "20 minutes"},
+        {"text": "30 minutes"},
+        {"text": "40 minutes"},
+        {"text": "50 minutes"}
+      ],
+      "correctAnswer": "40 minutes"
+    },
+    {
+      "id": 12,
+      "text": "Un pompier doit remplir un réservoir d'eau de 500 litres en utilisant des seaux de 5 litres. Combien de seaux devra-t-il utiliser ?",
+      "answers": [
+        {"text": "50 seaux"},
+        {"text": "100 seaux"},
+        {"text": "200 seaux"},
+        {"text": "500 seaux"}
+      ],
+      "correctAnswer": "100 seaux"
+    },
+    {
+      "id": 13,
+      "text": "Un camion de pompiers a parcouru 24 km en 18 minutes. Quelle est sa vitesse moyenne en km/h ?",
+      "answers": [
+          {"text": "80 km/h"},
+          {"text": "90 km/h"},
+          {"text": "100 km/h"},
+          {"text": "120 km/h"}
+      ],
+      "correctAnswer": "80 km/h"
+    },
+    {
+        "id": 14,
+        "text": "Un pompier doit remplir un réservoir d'eau de 3000 L en 20 minutes. Sachant que le débit du robinet est de 50 L/min, combien de temps devra-t-il laisser couler l'eau ?",
+        "answers": [
+            {"text": "30 minutes"},
+            {"text": "60 minutes"},
+            {"text": "90 minutes"},
+            {"text": "120 minutes"}
+        ],
+        "correctAnswer": "60 minutes"
+    },
+    {
+        "id": 15,
+        "text": "Un bâtiment de 6 étages mesure 24 m de hauteur. Quelle est la hauteur moyenne de chaque étage ?",
+        "answers": [
+            {"text": "3 m"},
+            {"text": "4 m"},
+            {"text": "5 m"},
+            {"text": "6 m"}
+        ],
+        "correctAnswer": "4 m"
+    }
+  ]

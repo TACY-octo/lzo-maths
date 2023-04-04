@@ -1,0 +1,287 @@
+[
+    {
+        "id": 1,
+        "text": "Parmi les différents trajets ci-dessous, lequel est le plus rapide pour le CCR d'atteindre le lieu d'incendie ?",
+        "answers": [
+            {
+                "text": "32 km à 70 km/h"
+            },
+            {
+                "text": "25 km à 80 km/h"
+            },
+            {
+                "text": "36 km à 90 km/h"
+            },
+            {
+                "text": "16 km à 60 km/h"
+            }
+        ],
+        "correctAnswer": "16 km à 60 km/h"
+    },
+    {
+        "id": 2,
+        "text": "La consommation du CCR est de 150L aux 100km, combien de litres de carburant faut-il pour arriver et repartir de l'intervention (32 km aller) ?",
+        "answers": [
+            {
+                "text": "96 litres"
+            },
+            {
+                "text": "83 litres"
+            },
+            {
+                "text": "102 litres"
+            },
+            {
+                "text": "75 litres"
+            }
+        ],
+        "correctAnswer": "96 litres"
+    },
+    {
+        "id": 3,
+        "text": "Pour éteindre l'incendie il faut environ 32000 L d'eau et le débit de la DMR est de 300L/min. En combien de temps faut-il pour éteindre l'incendie ?",
+        "answers": [
+            {
+                "text": "2h12min"
+            },
+            {
+                "text": "1h23min"
+            },
+            {
+                "text": "1h47min"
+            },
+            {
+                "text": "58min"
+            }
+        ],
+        "correctAnswer": "1h47min"
+    },
+    {
+        "id": 4,
+        "text": "Le CCR peut contenir 1500L, combien faut-il de CCR pour éteindre l'incendie ?",
+        "answers": [
+            {
+                "text": "18 CCR"
+            },
+            {
+                "text": "22 CCR"
+            },
+            {
+                "text": "25 CCR"
+            },
+            {
+                "text": "16 CCR"
+            }
+        ],
+        "correctAnswer": "22 CCR"
+    },
+    {
+        "id": 5,
+        "text": "Les flammes ont mis 7 jours à venir à bout de la zone brulée de 32 HA, Calculer la vitesse de propagation du feu, en hectares par heure (arrondir au dixième).",
+        "answers": [
+            {
+                "text": "0,2 Ha par heure"
+            },
+            {
+                "text": "1 Ha par heure"
+            },
+            {
+                "text": "0,7 Ha par heure"
+            },
+            {
+                "text": "1,5 Ha par heure"
+            }
+        ],
+        "correctAnswer": "0,2 Ha par heure."
+    },
+    {
+        "id": 6,
+        "text": "Une fois que l'incendie a été maîtrisé, nous remarquons qu'une toiture d'un pavillon a été brûlée, vous devez mettre en place une bâche de protection sur la partie endommagée de la toiture. Ce trou mesure 6m18 de longueur et 3m25 de largeur. Combien fait la surface à recouvrir ?",
+        "answers": [
+            {
+                "text": "17,15 m2"
+            },
+            {
+                "text": "20,085 m2"
+            },
+            {
+                "text": "22,05 m2"
+            },
+            {
+                "text": "18,06 m2"
+            }
+        ],
+        "correctAnswer": "20,085 m2"
+    },
+    {
+        "id": 7,
+        "text": "Pour recouvrir ce trou, nous avons des bâches de 2,50 m2, combien faut-il de bâches ?",
+        "answers": [
+            {
+                "text": "9 bâches"
+            },
+            {
+                "text": "6 bâches"
+            },
+            {
+                "text": "12 bâches"
+            },
+            {
+                "text": "5 bâches"
+            }
+        ],
+        "correctAnswer": "9 bâches"
+    },
+    {
+        "id": 8,
+        "text": "Pour fêter le premier CCR d'un des SP, il convient de payer un coup à l'ensemble de la caserne (hors garde !), la caserne au complet est de 32 personnes, sur ces 32 personnes la consommation est d'environ 128 cl sauf pour un qui est de 600 cl (surnommé le sanglier). Combien faut-il de litre pour rincer la caserne ?",
+        "answers": [
+            {
+                "text": "27,65 litres"
+            },
+            {
+                "text": "52,68 litres"
+            },
+            {
+                "text": "43,32 litres"
+            },
+            {
+                "text": "46,96 litres"
+            }
+        ],
+        "correctAnswer": "46,96 litres"
+    },
+    {
+        "id": 9,
+        "text": "Au CTA, le sapeur doit établir le trajet le plus rapide par rapport aux casernes à proximité. Lequel de ces casernes est le plus rapide ?",
+        "answers": [
+          {
+            "text": "St-Souplet : 25 km à 90 km/h"
+          },
+          {
+            "text": "Lizy-sur-Ourcq : 32 km de l'intervention à 90 km/h"
+          },
+          {
+            "text": "La Ferté-sous-Jouarre : 28 km à 73 km/h"
+          },
+          {
+            "text": "Meaux : 38 km à 82 km/h"
+          }
+        ],
+        "correctAnswer": "St-Souplet : 25 km à 90 km/h"
+    },
+    {
+        "id": 10,
+        "text": "L'alerte a été déclenchée à 9h28min et s'est terminée à 12h52, combien de temps a pris l'intervention ?",
+        "answers": [
+            {
+                "text": "3h52 min"
+            },
+            {
+                "text": "2h58 min"
+            },
+            {
+                "text": "3h24 min"
+            },
+            {
+                "text": "2h32 min"
+            }
+        ],
+        "correctAnswer": "3h24 min"
+    },
+    {
+        "id": 11,
+        "text": "La cuve de carburant de la caserne est remplie de 75000 L et est remplie à 67 %, combien de litres restent-ils ?",
+        "answers": [
+            {
+                "text": "29 125 L"
+            },
+            {
+                "text": "32 452 L"
+            },
+            {
+                "text": "21 642 L"
+            },
+            {
+                "text": "24 750 L"
+            }
+        ],
+        "correctAnswer": "24 750 L"
+    },
+    {
+        "id": 12,
+        "text": "Sur une grosse intervention, nous avons 245 pompiers impliqués, dont la caserne de Lizy avec 14 pompiers. Combien représente en pourcentage l'effectif de la caserne de Lizy ?",
+        "answers": [
+            {
+                "text": "5,7 %"
+            },
+            {
+                "text": "12,3 %"
+            },
+            {
+                "text": "9 %"
+            },
+            {
+                "text": "7,5 %"
+            }
+        ],
+        "correctAnswer": "5,7 %"
+    },
+    {
+        "id": 13,
+        "text": "Une citerne d'eau a pour diamètre 2 m et fait 8 m de longueur. Si elle est remplie à 67 %, combien de litres lui restent-ils ?",
+        "answers": [
+          {
+            "text": "10 203 L"
+          },
+          {
+            "text": "8 416,9 L"
+          },
+          {
+            "text": "12 502 L"
+          },
+          {
+            "text": "13 202 L"
+          }
+        ],
+        "correctAnswer": "8 416,9 L"
+    },
+    {
+        "id": 14,
+        "text": "Un CCR utilise 7,5 % de la citerne d'eau pour remplir sa cuve. Combien de litres a-t-il utilisé ?",
+        "answers": [
+            {
+                "text": "765,225 litres"
+            },
+            {
+                "text": "548,87 litres"
+            },
+            {
+                "text": "852,23 litres"
+            },
+            {
+                "text": "526,05 litres"
+            }
+        ],
+        "correctAnswer": "526,05 litres"
+    },
+    {
+        "id": 15,
+        "text": "La caserne de Lizy-sur-Ourcq a une surface de 323 m², la remise utilise 128 m², si la hauteur fait 8 m de haut, combien mesure en m³ la remise ?",
+        "answers": [
+            {
+                "text": "1024 m³"
+            },
+            {
+                "text": "823 m³"
+            },
+            {
+                "text": "1216 m³"
+            },
+            {
+                "text": "2103 m³"
+            }
+        ],
+        "correctAnswer": "1024 m³"
+    }
+]
