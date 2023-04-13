@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "text": "Combien y a t'il de senateur dans le gouvernement français ?",
+        "answers": [
+            {
+                "text": "228 senateurs"
+            },
+            {
+                "text": "348 senateurs"
+            },
+            {
+                "text": "152 senateurs"
+            },
+            {
+                "text": "132 senateurs"
+            }
+        ],
+        "correctAnswer": "228 senateurs"
+    },
+    {
+        "id": 2,
+        "text": "Quelle est la fonction du sénat ?",
+        "answers": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 3,
+        "text": "Quelle est le nom du ministre de l'intérieur ?",
+        "answers": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 4,
+        "text": "Combien de département est composé la france ?",
+        "answers": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 5,
+        "text": "Que permet de faire l'assemblé du gouvernement français ?",
+        "answers": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 5,
+        "text": "Dans quelle république sommes-nous ?",
+        "answers": [
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 6,
+        "text": "Que signifie l'acronyme DGSCGC",
+        "answers": [
+            {
+                "text": "Direction de groupement de la sécurité civile et de la gestion de crise"
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 7,
+        "text": "Qui est la directrice ou directeur de la DGSCGC",
+        "answers": [
+            {
+                "text": "Direction de groupement de la sécurité civile et de la gestion de crise"
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    },
+    {
+        "id": 8,
+        "text": "Qui est le directeur de la DGSCGC",
+        "answers": [
+            {
+                "text": "Direction de groupement de la sécurité civile et de la gestion de crise"
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            },
+            {
+                "text": ""
+            }
+        ],
+        "correctAnswer": ""
+    }
+]

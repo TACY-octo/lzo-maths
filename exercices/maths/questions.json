@@ -1,0 +1,325 @@
+[
+    {
+        "id": 1,
+        "text": "Une intervention demande d'épuiser l'eau présente dans une cave de dimensions 7m x 5m x 2m50 remplie aux 2/3. Combien de litres d'eau doivent être épuisés ?",
+        "answers": [
+            {
+                "text": "58,33 m3"
+            },
+            {
+                "text": "51,21 m3"
+            },
+            {
+                "text": "62 m3"
+            },
+            {
+                "text": "38,2 m3"
+            }
+        ],
+        "correctAnswer": "58,33 m3"
+    },
+    {
+        "id": 2,
+        "text": "Suite à la question 1, une motopompe d'épuisement avec une capacité de refoulement d'environ 65 m3/h est mise en place. Combien de temps faudra-t-il pour épuiser l'eau restante dans la cave ?",
+        "answers": [
+            {
+                "text": "51 min"
+            },
+            {
+                "text": "54 min"
+            },
+            {
+                "text": "57 min"
+            },
+            {
+                "text": "48 min"
+            }
+        ],
+        "correctAnswer": "54 min"
+    },
+    {
+      "id": 3,
+      "text": "Pour la préparation au concours de SPP, 32 participants passeront un test de luc léger. Parmi eux, 13 atteindront le palier 7, 16 atteindront le palier 8, 2 atteindront le palier 9 et 1 atteindra le palier 10. Quel pourcentage de participants atteindra le palier 7 ?",
+      "answers": [
+          {
+              "text": "21,87%"
+          },
+          {
+              "text": "19,2%"
+          },
+          {
+              "text": "28%"
+          },
+          {
+              "text": "25%"
+          }
+      ],
+      "correctAnswer": "21,87%"
+    },
+    {
+      "id": 4,
+      "text": "En supposant que chaque départ du VSAV consomme 1,7 litres de carburant par aller-retour et que le prix actuel du carburant est de 1,42 euro par litre, combien coûterait en carburant le VSAV pour une année, sachant qu'il effectue en moyenne 42 départs par mois ?",
+      "answers": [
+          {
+              "text": "1082,16 euro"
+          },
+          {
+              "text": "857,20 euro"
+          },
+          {
+              "text": "1721,12 euro"
+          },
+          {
+              "text": "1216,65 euro"
+          }
+      ],
+      "correctAnswer": "1216,65 euro"
+    },
+    {
+      "id": 5,
+      "text": "Un test ICP est proposé à la caserne qui compte 41 personnes, et actuellement 61% ont effectué le test. Combien de personnes restent à évaluer si nécessaire ? (arrondi au nombre entier)",
+      "answers": [
+          {
+              "text": "16 personnes"
+          },
+          {
+              "text": "13 personnes"
+          },
+          {
+              "text": "22 personnes"
+          },
+          {
+              "text": "9 personnes"
+          }
+      ],
+      "correctAnswer": "16 personnes"
+    },
+    {
+      "id": 6,
+      "text": "Une piscine olympique mesure 100m de longueur sur 25m de largeur et a une hauteur allant de 1m50 à 4m. Quel est le pourcentage de descente en profondeur de la piscine ?",
+      "answers": [
+          {
+              "text": "1,7 %"
+          },
+          {
+              "text": "2,5 %"
+          },
+          {
+              "text": "1 %"
+          },
+          {
+              "text": "3 %"
+          }
+      ],
+      "correctAnswer": "2,5 %"
+    },
+    {
+      "id": 7,
+      "text": "Suite à la question 6, combien de litres d'eau se trouvent dans la piscine olympique de la question précédente ?",
+      "answers": [
+          {
+              "text": "8 578 m3"
+          },
+          {
+              "text": "10 218 m3"
+          },
+          {
+              "text": "3 250 m3"
+          },
+          {
+              "text": "6 250 m3"
+          }
+      ],
+      "correctAnswer": "3 250 m3"
+    },
+    {
+      "id": 8,
+      "text": "Un CCR vide pèse 7 tonnes et a une capacité de 5m3. Combien pèse le CCR rempli à 85% ?",
+      "answers": [
+          {
+              "text": "10 tonnes"
+          },
+          {
+              "text": "11,50 tonnes"
+          },
+          {
+              "text": "9,3 tonnes"
+          },
+          {
+              "text": "21,7 tonnes"
+          }
+      ],
+      "correctAnswer": "11,50 tonnes"
+    },
+    {
+      "id": 9,
+      "text": "Un feu de pavillon a eu lieu de 17h32 à 23h12 avec un débit d'eau de 150 L/min. Combien de litres d'eau ont été utilisés pendant cette intervention ?",
+      "answers": [
+          {
+              "text": "32 682 litres"
+          },
+          {
+              "text": "48 125 litres"
+          },
+          {
+              "text": "51 000 litres"
+          },
+          {
+              "text": "45 500 litres"
+          }
+      ],
+      "correctAnswer": "51 000 litres"
+    },
+    {
+      "id": 10,
+      "text": "Suite à la question 9, le chef de groupe est arrivé 32 minutes après le début de l'intervention et est reparti 15 minutes avant la fin. Combien de temps le chef de groupe a-t-il été présent sur l'intervention ?",
+      "answers": [
+          {
+              "text": "4 heures et 53 minutes"
+          },
+          {
+              "text": "5 heures et 16 minutes"
+          },
+          {
+              "text": "2 heures et 28 minutes"
+          },
+          {
+              "text": "4 heures et 32 minutes"
+          }
+      ],
+      "correctAnswer": "4 heures et 53 minutes"
+    },
+    {
+      "id": 11,
+      "text": "Pour le défilé du 14 juillet, il y a 4 casernes en Seine-et-Marne composées chacune de 4 sapeurs et 3 casernes dans les Yvelines composées chacune de 3 sapeurs, ainsi que 61 sapeurs dans d'autres casernes hors d'Ile-de-France. Quel pourcentage des sapeurs participant au défilé vient des casernes des Yvelines ?",
+      "answers": [
+          {
+              "text": "10,46 %"
+          },
+          {
+              "text": "9,12 %"
+          },
+          {
+              "text": "12,52 %"
+          },
+          {
+              "text": "7,74 %"
+          }
+      ],
+      "correctAnswer": "10,46 %"
+    },
+    {
+      "id": 12,
+      "text": "Suite à la question 11, si seulement 26% des sapeurs ont été sélectionnés pour participer au défilé, combien de sapeurs au total seront présents dans le défilé (arrondi à l'entier supérieur) ?",
+      "answers": [
+          {
+              "text": "21 %"
+          },
+          {
+              "text": "26,5 %"
+          },
+          {
+              "text": "16,23 %"
+          },
+          {
+              "text": "22,36 %"
+          }
+      ],
+      "correctAnswer": "22,36 %"
+    },
+    {
+      "id": 13,
+      "text": "Pour augmenter le nombre de recrues volontaires, la caserne de Lizy souhaite installer des bandeaux publicitaires de 1m25 et de 2m, dont 25m seront financés par le SDIS. Si l'on souhaite faire 35% de bandeaux de 1m25 et 65% de bandeaux de 2m, combien de bandeaux est-il possible d'installer ?",
+      "answers": [
+          {
+              "text": "7 bandeaux de 1m25 et 8 bandeaux de 2m"
+          },
+          {
+              "text": "2 bandeaux de 1m25 et 12 bandeaux de 2m"
+          },
+          {
+              "text": "10 bandeaux de 1m25 et 3 bandeaux de 2m"
+          },
+          {
+              "text": "4 bandeaux de 1m25 et 13 bandeaux de 2m"
+          }
+      ],
+      "correctAnswer": "7 bandeaux de 1m25 et 8 bandeaux de 2m"
+    },
+    {
+      "id": 14,
+      "text": "Un feu a été déclaré à 15h25 dans un champ, il fallait 3 jours pour le maîtriser. Au total, 42 hectares ont été détruits. Quelle est la vitesse de progression du feu sur la surface en km/h ?",
+      "answers": [
+          {
+              "text": "1,215 km2/h"
+          },
+          {
+              "text": "0,0142 km2/h"
+          },
+          {
+              "text": "0,0058 km2/h"
+          },
+          {
+              "text": "0,82 km2/h"
+          }
+      ],
+      "correctAnswer": "0,0058 km2/h"
+    },
+    {
+      "id": 15,
+      "text": " Suite à la question 14, si 4 FPT avec un débit chacun de 150L/min, combien de m3 a-t-il été utilisé durant cette intervention",
+      "answers": [
+          {
+              "text": "1 816 m3"
+          },
+          {
+              "text": "2 592 m3"
+          },
+          {
+              "text": "13 172 m3"
+          },
+          {
+              "text": "4 682 m3"
+          }
+      ],
+      "correctAnswer": "2 592 m3"
+    },
+    {
+      "id": 16,
+      "text": "Le VSA est arrivé à la caserne de Lizy-sur-Ourcq, mais une panne oblige à le renvoyer en atelier pour réparation. L'atelier se trouve à 78 km de Lizy-sur-Ourcq et le véhicule doit rouler à 70% de sa vitesse maximale, qui est de 90 km/h. En combien de temps le VSA arrivera-t-il à l'atelier ?",
+      "answers": [
+          {
+              "text": "1h14"
+          },
+          {
+              "text": "1h32"
+          },
+          {
+              "text": "52 min"
+          },
+          {
+              "text": "2h48"
+          }
+      ],
+      "correctAnswer": "1h14"
+    },
+    {
+      "id": 17,
+      "text": "Le VSA est parti à 11h47, mais en raison d'un embouteillage, il a perdu 40 minutes. Il a également passé 10 minutes à faire le plein. Sur les 26 derniers kilomètres, il a pu rouler à 100% de sa vitesse maximale de 90 km/h. À quelle heure est-il arrivé à destination ?",
+      "answers": [
+          {
+              "text": "13h52"
+          },
+          {
+              "text": "14h39"
+          },
+          {
+              "text": "13h16"
+          },
+          {
+              "text": "12h28"
+          }
+      ],
+      "correctAnswer": "14h39"
+    }
+  ]
